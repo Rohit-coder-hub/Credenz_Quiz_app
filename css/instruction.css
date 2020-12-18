@@ -99,5 +99,5 @@ body
 }
 
 /*For responsive*/
-@media only screen and (max-width: 1024px) {body{height: auto !important  ;}.card{margin-top: 0vh !important;}}
+@media only screen and (max-width: 1024px) {body{height: auto !important  ;}.card{margin-top: 3vh !important;}}
 @media only screen and (max-height: 1367px) and (min-height: 1365px)  {body{height: 97vh !important  ;}.card{margin-top: 18vh !important;}}
