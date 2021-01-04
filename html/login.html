@@ -1,65 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quiz LOGIN Page</title>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        />
-     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
-	<link rel="stylesheet" type="text/css" href="../css/login.css" />
-  </head>
-  <body>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Login Page</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="keywords" content="webgl, three.js, meshline, animation, lines">
+		<link
+		  rel="stylesheet"
+		  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+			/>
+		 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
+		
+	
+		
+  <link href="../css/all.css" rel="stylesheet"><link href="../css/login.css" rel="stylesheet">
+</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark " style="background-color: black; font-family:'Times New Roman', Times, serif;">
+			<a class="navbar-brand" href="#">
+			  <img src="../img/pisb.jpg" width="90" height="30" class="d-inline-block align-top" alt="">
+			</a>
+			<a class="navbar-brand mr-auto" >LOGIN Page</a>
+			
+		  </nav>
+	  
+		  <div class="form-bg ">
+			  <div class="container">   
+          <div class="row">
+          <div class="col-lg-6 offset-lg-3" style="background:radial-gradient(#2C69D1,#143261 );box-shadow: 0 6px 20px 0 #01020a, 0 6px 30px 0 #01020a ;">
+            <form class="form_horizontal text-center animated animatedFadeInUp fadeInUp">
+              <div class="form_icon "><i class="fa fa-user-circle"></i></div>
+              <p class="user" style="padding-right: 15px;;">USER LOGIN</p>
+              <div class="form-group">
+                <span class="input-icon"  ><i class="fa fa-user"></i></i></span>
+                <input class="from-control text-center " style="margin-left: -5px; outline: none; " type="text" placeholder="USERNAME"> 
+              </div>
+              <div class="form-group">
+                  <span class="input-icon1"><i class="fa fa-lock"></i></i></span>
+                  <input class="from-control text-center" style="margin-left: -5px; outline: none;" type="password" placeholder="PASSWORD" id="myInput"> 
+              </div>
 
-    <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: black; font-family:'Times New Roman', Times, serif;">
-      <a class="navbar-brand" href="#">
-        <img src="../img/pisb.jpg" width="90" height="30" class="d-inline-block align-top" alt="">
-      </a>
-      <a class="navbar-brand mr-auto" >LOGIN Page</a>
-      
-    </nav>
+              <div class="form-group form-check" style="font-size: 20px; color: black;">
+                <input type="checkbox" class="form-check-input mt-2" id="exampleCheck1" onclick="myFunction()">
+                <label class="form-check-label" for="exampleCheck1">Show password</label>
+              </div>
 
-    <div class="form-bg ">
-        <div class="container">       
-                        <form class="form_horizontal text-center animated animatedFadeInUp fadeInUp">
-                            <div class="form_icon "><i class="fa fa-user-circle"></i></div>
-                            <p class="user" style="padding-right: 15px;;">USER LOGIN</p>
-                              <div class="form-group">
-                                <span class="input-icon"  ><i class="fa fa-user"></i></i></span>
-                                <input class="from-control text-center " style="margin-left: -5px; outline: none; " type="text" placeholder="USERNAME"> 
-                              </div>
-                              <div class="form-group">
-                                    <span class="input-icon1"><i class="fa fa-lock"></i></i></span>
-                                    <input class="from-control text-center" style="margin-left: -5px; outline: none;" type="password" placeholder="PASSWORD" id="myInput"> 
-                              </div>
-
-                              <div class="form-group form-check" style="font-size: 20px; color: black;">
-                                <input type="checkbox" class="form-check-input mt-2" id="exampleCheck1" onclick="myFunction()">
-                                <label class="form-check-label" for="exampleCheck1">Show password</label>
-                              </div>
-
-                            <button class="btn signin ml-2">LOGIN</button>
-                        </form>
+              <button class="btn signin ml-2 mb-3">LOGIN</button>
+            </form>
             </div>
           </div>    
-
-    <nav class="navbar navbar-expand-lg justify-content-center navbar-dark fixed-bottom " style="background-color: black; font-family:'Times New Roman', Times, serif; height: 8vh;">
-        <a class="navbar-brand mc-auto ">PICT IEEE</a>
-    </nav>
-
-    <script>
-      function myFunction() {
-        var x = document.getElementById("myInput");
-        if (x.type === "password") {
-          x.type = "text";
-        } else {
-          x.type = "password";
-        }
-      }
-      </script>
-
-  </body>
+							 
+				  </div>
+				</div>    
+	  
+		  <nav class="navbar navbar-expand-lg justify-content-center navbar-dark fixed-bottom " style="background-color: black; font-family:'Times New Roman', Times, serif; height: 8vh;">
+			  <a class="navbar-brand mc-auto ">PICT IEEE</a>
+		  </nav>
+	  
+		  <script>
+			function myFunction() {
+			  var x = document.getElementById("myInput");
+			  if (x.type === "password") {
+				x.type = "text";
+			  } else {
+				x.type = "password";
+			  }
+			}
+		  </script>
+	<script type="text/javascript" src="../js/all.js"></script><script type="text/javascript" src="../js/login.js"></script></body>
+</html>
