@@ -1,6 +1,5 @@
 .form-bg
 { 
-    margin-top: -20px !important;
     display: flex ;
     align-items: center ;
 }
@@ -160,6 +159,7 @@
 @media only screen and (max-height: 1026px) {.form-bg{height: 90vh !important;}}
 @media only screen and (max-height: 900px) {.form-bg{height: 89vh !important;}}
 @media only screen and (max-height: 800px) {.form-bg{height: 85vh !important;}}
+@media only screen and (max-width: 600px) {.form-bg{margin-top: -40px !important;}}
 
 @media only screen and (max-width: 300px) {.form_horizontal .input-icon{font-size: 13px; padding-bottom: 10px !important;}
 .form_horizontal .input-icon1{font-size: 13px; padding-bottom: 11px !important;}
