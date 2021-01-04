@@ -1,6 +1,6 @@
 .form-bg
 {
-    
+    margin-top: -7px !important;
     display: flex ;
     align-items: center ;
 }
