@@ -66,7 +66,7 @@ body
 /* Bottom adjust*/
 @media only screen and (max-width: 1256px) {#adjust{padding: 3% !important;}}
 @media only screen and (max-width: 768px) {#adjust{padding: 8% !important;}}
-@media only screen and (max-width: 500px) {#adjust{padding: 12% !important;}}
+@media only screen and (max-width: 500px) {#adjust{padding: 12% !important;}#footer{font-size: 8px;}}
 
 
 /* Animation of cards*/
@@ -111,5 +111,5 @@ body
 }
 
 /*For responsive*/
-@media only screen and (max-width: 1024px) {body{height: auto !important  ;}.card{margin-top: 3vh !important;}}
+@media only screen and (max-width: 1024px) {html{height: auto !important  ;} body{height: auto !important  ;}.card{margin-top: 3vh !important;}}
 @media only screen and (max-height: 1367px) and (min-height: 1365px)  {body{height: 97vh !important  ;}.card{margin-top: 18vh !important;}}
