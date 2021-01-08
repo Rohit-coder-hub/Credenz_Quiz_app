@@ -1,29 +1,32 @@
 body
 {
+ background-image: linear-gradient(0deg,#103d3d, #27aca5, #b7dddc);
+ width: 100%;
+  
+ background-position: center;
+ background-size: cover;
+ /* overflow: hidden; */
+ /* font-family: 'IM Fell DW Pica', serif; */
+ /* font-family: 'BenchNine', sans-serif; */
+ font-family: 'Gruppo', cursive;
+ /* letter-spacing: 1px; */
+ position: relative;        
+ height: 100%;        
+ overflow: auto;
+    
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
 
-  background: url('../img/quiz1.png') no-repeat;
-  width: 100%;
-  
-  background-position: center;
-  background-size: cover;
-  /* overflow: hidden; */
-  /* font-family: 'IM Fell DW Pica', serif; */
-  /* font-family: 'BenchNine', sans-serif; */
-  font-family: 'Gruppo', cursive;
-  /* letter-spacing: 1px; */
-  position: relative;        
-  min-height: 100%;        
-  overflow: auto;
-  
+    
 }
 
 /*card*/
 .card
 {
-  background-color: rgb(18, 84, 95);
+    background: rgb(9,40,49);
     color: #fff;
     border-radius: 20px;
-    
+    box-shadow: 10px 10px 5px rgb(20, 19, 19);
 }
  .card-header
  {
@@ -60,7 +63,7 @@ body
 /* Bottom adjust*/
 @media only screen and (max-width: 1256px) {#adjust{padding: 3% !important;}}
 @media only screen and (max-width: 768px) {#adjust{padding: 8% !important;}}
-@media only screen and (max-width: 500px) {#adjust{padding: 12% !important;}#footer{font-size: 8px;}}
+@media only screen and (max-width: 500px) {#adjust{padding: 12% !important;}}
 
 
 /* Animation of cards*/
