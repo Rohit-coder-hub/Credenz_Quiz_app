@@ -1,6 +1,6 @@
 body
 {
- background-image: linear-gradient(0deg,#103d3d, #27aca5, #b7dddc);
+ background: linear-gradient(0deg,#103d3d, #27aca5, #b7dddc);
  width: 100%;
   
  background-position: center;
@@ -10,8 +10,7 @@ body
  /* font-family: 'BenchNine', sans-serif; */
  font-family: 'Gruppo', cursive;
  /* letter-spacing: 1px; */
- position: relative;        
- height: 100%;        
+ position: relative;                
  overflow: auto;
     
   font-family: Verdana, Geneva, Tahoma, sans-serif;
