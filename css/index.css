@@ -1,5 +1,4 @@
 body {
-    background-color: #000;
     overflow: hidden;
 }
 .bg{
@@ -72,9 +71,9 @@ form{
     margin:5vw;
     margin-top:7vw;
     margin-left: 6vw;
-    border:1.5px solid whitesmoke;
+    box-shadow:  0 10px 20px 0 #01020a, 0 10px 20px 0 #01020a ;
     border-radius: 15px;
-    background-color: rgba(0,0,0,1);
+    background-color:#143261;
     color:white;
     font-size: 18px;
     font-family:Roboto;
