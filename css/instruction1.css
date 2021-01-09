@@ -115,3 +115,4 @@ body
 @media only screen and (max-height: 1367px) and (min-height: 1365px)  {body{height: 97vh !important  ;}.card{margin-top: 18vh !important;}}
 @media screen and (max-width: 1200px) and (min-width: 1023px) {.card-body{font-size: 14px !important;}}
 @media screen and (max-width: 1023px) and (min-width: 1000px) {.card-body{font-size: 16px !important;}}
+@media only screen and (max-width: 992px) {.row{margin-top: 16vh !important;}}
