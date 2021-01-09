@@ -15,7 +15,7 @@ body
  font-family: 'Gruppo', cursive;
  /* letter-spacing: 1px; */
  position: relative;                
- overflow: hidden;
+ overflow: auto;
     
   font-family: Verdana, Geneva, Tahoma, sans-serif;
    
@@ -111,7 +111,5 @@ body
 }
 
 /*For responsive*/
-@media only screen and (max-width: 1023px) {.row{height: auto !important  ;}html{height: auto !important  ;} body{height: auto !important  ; overflow: auto !important;}.card{margin-top: 3vh !important;}}
+@media only screen and (max-width: 1024px) {html{height: auto !important  ;} body{height: auto !important  ;}.card{margin-top: 3vh !important;}}
 @media only screen and (max-height: 1367px) and (min-height: 1365px)  {body{height: 97vh !important  ;}.card{margin-top: 18vh !important;}}
-@media screen and (max-width: 1200px) and (min-width: 1023px) {.card-body{font-size: 14px !important;}}
-@media screen and (max-width: 1023px) and (min-width: 1000px) {.card-body{font-size: 16px !important;}}
