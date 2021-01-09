@@ -103,7 +103,8 @@ form{
     height:auto;
     border-radius: 3px;
     font-size: 22px;
-    background-color: #00AACC;
+    background-color: #001122;
+    box-shadow: 0px 3px 2px 0px #000000;
     color:white;
     border:none;
     outline:none;
@@ -118,8 +119,8 @@ form{
     font-size: 15px;
 }
 a.su:link{
-    color:green !important;
-    text-decoration: none;
+    color:white !important;
+    text-decoration: underline;
     background:transparent;
 }
 a.abs{
