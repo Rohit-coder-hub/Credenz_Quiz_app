@@ -1,8 +1,13 @@
-body {
-    background-color: #001122;
-    overflow:hidden;
-}
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #07074e;
+    overflow: hidden;
+  }
 
+ 
 /* Background 
 .fullscreen-bg {
     position: fixed;
@@ -60,7 +65,6 @@ body {
 } 
 .nb{
     background-color: rgba(0,0,0,0.7)!important;
-    z-index:2;
     font-size:18px;
     color:white;
 }
@@ -92,6 +96,11 @@ form{
     height:100px;
     width:100px;
     border-radius:50%;
+}
+.new
+{
+    position: absolute;
+    margin-top: 2vw;
 }
 .input-area{
     position: absolute;
@@ -443,25 +452,26 @@ a.ft{
     
 @media (max-width:425px){
     body{
-        overflow: auto;
+        overflow: hidden;
     }
     .il{
         display:none;
     }
     .cred{
-        height:100px;
-        width:110px;
+        height:90px;
+        width:190px;
         margin-left:2vw;
+        margin-top:12vw;
     }
     .txt{
         font-size:25px;
     }
     .stxt{
-        font-size:23px;
+        font-size:17px;
         margin-left:4vw;
     }
     .en{
-        font-size:40px;
+        font-size:25px;
         margin-left:7vw;
         margin-top:-3vw;
     }
@@ -492,19 +502,21 @@ a.ft{
         margin-right:10vw;
     }
     .cre1{
-        height:90px;
-        width:90px;
+        height:75px;
+        width:75px;
         margin-top:-34vw;
-        margin-left:13vw;
+        margin-left:15vw;
     }
     .input-area{
+        position: fixed !important;
         height:100vw;
         width:65vw;
         font-size: 18px;
         margin-left:-14.5vw;
-        margin-top:72vw;
+        margin-top:56vw;
         padding-left:8vw;
         padding-top:15vw;
+        z-index: 10000;
     }
     .input-field{
         width:50vw;
@@ -604,11 +616,12 @@ a.ft{
         font-size:24px;
     }
     .stxt{
-        margin-left: 8vw;
+        font-size:17px;
+       margin-left: 1x;
     }
     .en{
-        font-size:35px;
-        margin-left:10vw;
+        font-size:25px;
+        margin-left:7vw;
         margin-top:-3vw;
     }
     .cred{
@@ -618,8 +631,8 @@ a.ft{
 @media(max-width:365px){
     .input-area{
         position: absolute;
-        top:52vw;
-        height:100vw;
+        top:37vw;
+        height:95vw;
         width:68vw;
         font-size:18px;
         padding-top:6vw;
@@ -631,7 +644,7 @@ a.ft{
         margin-left:6vw;
     }
     .stxt{
-        font-size:21px;
+        font-size:18px;
     }
     .nt{
         font-size:11px;
@@ -641,17 +654,17 @@ a.ft{
         font-size:11px;
     }
     .cre1{
-        height:70px;
-        width:70px;
-        margin-left:11.2vw;
-        margin-top:-26vw;
+        height:60px;
+        width:60px;
+        margin-left:12vw;
+        margin-top:-22vw;
     }
     .submit-btn{
         margin-left: 0.5vw;
     }
     .stxt
     {
-        margin-left: 10vw;
+        margin-left: 7vw;
     }
     .en{
         margin-left: 11vw;
