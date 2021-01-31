@@ -3,8 +3,8 @@ html, body {
     padding: 0;
     width: 100%;
     height: 100%;
-    background-color: #07074e;
     overflow: hidden;
+    background-color: #000;
   }
 
  
@@ -212,7 +212,7 @@ a.ft{
 }
 
 /* Media Query */
-@media (max-width:1683px){
+@media (max-width:1685px){
     .stxt{
         
         left: 14vw;
@@ -222,25 +222,34 @@ a.ft{
     }
     .input-area
     {
-        margin-top: 13vw ;
+        margin-top: 19vw !important;
         height: 33vw;
         width: 24vw;
+    }
+    .cred
+    {
+        margin-top: 2vw;
     }
 }
 
 @media (max-width:1601px){
     .input-area
     {
-        margin-top: 6vw ;
+        margin-top: 6vw !important;
         height: 33vw;
         width: 24vw;
+    }
+
+    .cred
+    {
+        margin-top: 0px;
     }
 }
 
 @media (max-width:1441px){
     .input-area
     {
-        margin-top: 9vw;
+        margin-top: 9vw !important;
         height: 33vw;
         width: 24vw;
     }
@@ -266,10 +275,14 @@ a.ft{
         
         left: 16vw;
         bottom: 4vw;
+        margin-left:2vw ;
     }
     .en{
         left: 14vw;
         top: -6vw;
+    }
+    .cred{
+        margin-top: 2vw;
     }
 }
 
@@ -279,6 +292,7 @@ a.ft{
         left: 12vw;
         bottom: 4vw;
         font-size: 28px;
+        margin-left: 0vw;
     }
     .en{
         left: 10vw;
@@ -293,7 +307,7 @@ a.ft{
     }
     .input-area
     {
-        margin-top: 7vw;
+        margin-top: 7vw !important;
         height: 32vw;
         width: 23vw;
     }
@@ -341,7 +355,17 @@ a.ft{
 {
     .input-area
     {
+        margin-top: 15vw !important;
+        height: 37vw ;
+    }
+}
+
+@media (max-width:1281px) and (max-height:961px)
+{
+    .input-area
+    {
         margin-top: 15vw;
+        
     }
 }
 
@@ -349,7 +373,8 @@ a.ft{
 {
     .input-area
     {
-        margin-top: 12vw;
+        margin-top: 9vw !important;
+        height: 38vw ;
     }
 }
 
@@ -373,7 +398,7 @@ a.ft{
     }
     .input-area
     {
-        margin-top: 8vw;
+        margin-top: 7vw !important;
         height: 34vw;
         width: 24vw;
     }
@@ -389,13 +414,14 @@ a.ft{
     .input-area
     {
         margin-top: 6vw;
+        height: 32vw;
     }
 }
 
 @media (max-width:1153px){
     .input-area
     {
-        margin-top: 12vw;
+        margin-top: 12vw !important;
         height: 37vw;
         width: 25vw;
     }
@@ -449,17 +475,135 @@ a.ft{
         width:75px;
     }
  }
+
+
+ @media (max-width:769px){
+    .input-area
+    {
+        margin-top: 12vw;
+        height: 60vw;
+        width: 26vw;
+    }
+    .txt{
+        font-size: 30px;
+    }
+    .stxt{
+        
+        left: 14vw;
+        bottom: 4vw;
+        font-size: 20px;
+    }
+    .en{
+        left: 12vw;
+        top: -6vw;
+        font-size: 55px;
+    }
+    .cre1{
+        margin-top:-14vw;
+        margin-left:5vw;
+        height:75px;
+        width:75px;
+    }
+    .cred{
+        margin-top: 8vw;
+        height:150px;
+        width:270px;
+        margin-bottom:1vw;
+        
+    }
+ }
+
+ 
+
+ @media (max-width:769px){
+    .input-area
+    {
+        margin-top: 12vw;
+        height: 60vw;
+        width: 26vw;
+    }
+    .il{
+        display:none;
+    }
+    .txt{
+        font-size: 30px;
+    }
+    .stxt{
+        
+        left: 14vw;
+        bottom: 4vw;
+        font-size: 20px;
+    }
+    .en{
+        left: 12vw;
+        top: -6vw;
+        font-size: 55px;
+    }
+    .cre1{
+        margin-top:-14vw;
+        margin-left:5vw;
+        height:75px;
+        width:75px;
+    }
+    .cred{
+        margin-top: 8vw;
+        height:150px;
+        width:270px;
+        margin-bottom:1vw;
+        
+    }
+ }
+
+ 
+ @media (max-width:542px){
+    .input-area
+    {
+        top:10vw;
+        height: 70vw;
+        width: 34vw;
+    }
+    .txt{
+        font-size: 30px;
+    }
     
+    .stxt
+    {
+        margin-left: 7vw;
+    }
+    .en{
+        left: 15vw;
+        top: -6vw;
+        font-size: 55px;
+    }
+    .cre1{
+        margin-top:-14vw;
+        margin-left:6vw;
+        height:75px;
+        width:75px;
+    }
+    .cred{
+        margin-top: 8vw;
+        height:150px;
+        width:270px;
+        margin-bottom:1vw;
+        
+    }
+    .submit-btn
+    {
+        width : 19vw;
+    }
+ }
+
 @media (max-width:425px){
     body{
-        overflow: hidden;
+        overflow: hidden !important;
     }
     .il{
         display:none;
     }
     .cred{
         height:90px;
-        width:190px;
+        width:220px;
         margin-left:2vw;
         margin-top:12vw;
     }
@@ -468,7 +612,7 @@ a.ft{
     }
     .stxt{
         font-size:17px;
-        margin-left:4vw;
+        margin-left:14vw !important;
     }
     .en{
         font-size:25px;
@@ -508,7 +652,8 @@ a.ft{
         margin-left:15vw;
     }
     .input-area{
-        position: fixed !important;
+        position: absolute ;
+        top: 47vw;
         height:100vw;
         width:65vw;
         font-size: 18px;
@@ -517,6 +662,7 @@ a.ft{
         padding-left:8vw;
         padding-top:15vw;
         z-index: 10000;
+        
     }
     .input-field{
         width:50vw;
@@ -547,92 +693,56 @@ a.ft{
         margin-left: 13vw;
     }
 }
-@media(max-width:400px){
-    .input-area{
-        height:105vw;
-        width:70vw;
-        padding-left:12.5vw;
-        padding-top:14vw;
-        margin-left:-17vw;
-        margin-top:30vw;
-    }
-    .submit-btn{
-        margin-top:4.5vw;
-    }
-    .cre1{
-        margin-left:11vw;
-    }
-}
-@media(max-width:385px){
-    .input-area{
-        height:110vw;
-    }
-    .sign{
-        margin-top:10vw;
-        margin-right:8vw;
-        font-size: 14.5px;
-    }
-    .nt{
-        font-size:11.7px;
-        margin-left:2vw;
-    }
-    a.abs{
-        font-size:11.7px;
-    }
-}
+
 @media(max-width:376px){
     .input-area{
         position: absolute;
-        top:50vw;
-        height:100vw;
-        width:65vw;
-        padding-top:10vw;
-        margin-left:-15vw;
-        padding-left:-10vw;
-        
-    }
-    .input-field{
-        margin-left:-4.2vw;
-    }
-    .cre1{
-        height: 75px;
-        width:75px;
-        margin-left:10vw;
-        margin-top:-25vw;
-    }
-    .submit-btn{
-        margin-left:0.5vw;
-        margin-top:5vw;
+        top:52vw;
+        height:95vw;
+        width:66vw;
         font-size:18px;
-    }
-    .sign{
-        margin-top:7vw;
-        font-size: 12.5px;
-    }
-    .pad{
-        padding:50%;
+        padding-top:6vw;
     }
     .txt{
-        font-size:24px;
-    }
-    .stxt{
-        font-size:17px;
-       margin-left: 1x;
+        font-size:22.55px;
     }
     .en{
-        font-size:25px;
-        margin-left:7vw;
-        margin-top:-3vw;
+        margin-left:8vw;
     }
-    .cred{
-        margin-left:-2vw;
+    .stxt{
+        font-size:18px;
+        
+    }
+    .nt{
+        font-size:11px;
+        margin-left:2vw;
+    }
+    a.abs{
+        font-size:11px;
+    }
+    .cre1{
+        height:60px;
+        width:60px;
+        margin-left:16vw;
+        margin-top:-22vw;
+    }
+    .submit-btn{
+        margin-left: 4vw;
+    }
+    .stxt
+    {
+        margin-left: 10vw;
+    }
+    .en{
+        margin-left: 14vw;
     }
 }
+
 @media(max-width:365px){
     .input-area{
         position: absolute;
-        top:37vw;
-        height:95vw;
+        top:54vw;
+        height:97vw;
         width:68vw;
         font-size:18px;
         padding-top:6vw;
@@ -645,6 +755,7 @@ a.ft{
     }
     .stxt{
         font-size:18px;
+        margin-left: 10vw !important;
     }
     .nt{
         font-size:11px;
@@ -656,20 +767,21 @@ a.ft{
     .cre1{
         height:60px;
         width:60px;
-        margin-left:12vw;
+        margin-left:17vw;
         margin-top:-22vw;
     }
     .submit-btn{
-        margin-left: 0.5vw;
+        margin-left: 4vw;
     }
     .stxt
     {
-        margin-left: 7vw;
+        margin-left: 10vw !important;
     }
     .en{
-        margin-left: 11vw;
+        margin-left: 13vw;
     }
 }
+
 @media(max-width:325px){
     a.title{
         font-size:10px;
@@ -692,6 +804,22 @@ a.ft{
     }
     .sign{
         font-size: 12px;
+    }
+    .stxt
+    {
+        margin-left: 9vw !important;
+        font-size: 13px !important;
+    }
+    .en{
+        margin-left: 9vw !important;
+        font-size: 18px !important;
+    }
+    .cred{
+        margin-top: 17vw ;
+        height:70px;
+        width:170px;
+        margin-left:0vw;
+        
     }
     
 }
@@ -732,7 +860,8 @@ a.ft{
 @media(max-width:300px){
     .input-area
     {
-        margin-top: 60vw;
+        
+        margin-top: 30vw !important;
         height:120vw;
 
     }

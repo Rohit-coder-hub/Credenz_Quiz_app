@@ -31,13 +31,13 @@
             </div>
           </nav>
 
-      <div id="home_wave" style="background-image: linear-gradient(red,yellow);">
+      <div id="home_wave" >
     </div>
       
     <div class="container-fluid" >
         
         <form class="col-10 col-md-6 new">
-        <img class="cred" src="../img/C'live Horizontal White.png"><p class="stxt">presents</p>
+        <img class="cred" src="../img/C'live Horizontal Colour .png"><p class="stxt">presents</p>
         <p class="en" >QUIZ</p>
         </form>
         <form id="login" class="col-10 col-md-6 input-area justify-content-center align-items-center">
@@ -35818,7 +35818,6 @@
 	});
 
 	Frustum.prototype.setFromMatrix = function (m) {
-		console.warn('THREE.Frustum: .setFromMatrix() has been renamed to .setFromProjectionMatrix().');
 		return this.setFromProjectionMatrix(m);
 	};
 
@@ -39668,7 +39667,7 @@ function init() {
     camera.position.z = 10000;
 
     scene = new THREE.Scene();
-    scene.fog = new THREE.Fog( 0x07074e,2000, 10000 );
+    scene.fog = new THREE.Fog( 0x1D1E22,2000, 10000 );
 
     particles = new Array();
 
