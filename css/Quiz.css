@@ -67,6 +67,7 @@ html, body {
     background-color: rgba(0,0,0,0.7)!important;
     font-size:18px;
     color:white;
+    
 }
 form{
     position: absolute;
@@ -183,7 +184,7 @@ a.ft{
     height:280px;
     width:500px;
     margin-bottom:1vw;
-    
+    margin-left: 1vw;
 }
 .txt{
     color:white;
@@ -196,7 +197,7 @@ a.ft{
     color:white;
     position: relative;
     font-size:35px;
-    left:12vw;
+    left:13vw;
     bottom:4vw;
     font-weight:500;
     justify-content: center;
@@ -206,7 +207,7 @@ a.ft{
     color:white;
     font-size:80px;
     font-weight:bold;
-    left:10vw;
+    left:11vw;
     top:-5vw;
     justify-content: center;
 }
@@ -215,10 +216,12 @@ a.ft{
 @media (max-width:1685px){
     .stxt{
         
-        left: 14vw;
+        left: 15vw !important;
+        font-size: 40px;
     }
     .en{
-        left: 12vw;
+       left: 13vw !important;
+       font-size: 90px;
     }
     .input-area
     {
@@ -229,7 +232,9 @@ a.ft{
     .cred
     {
         margin-top: 2vw;
+        margin-left: 1vw;
     }
+   
 }
 
 @media (max-width:1601px){
@@ -257,10 +262,12 @@ a.ft{
         
         left: 14vw;
         bottom: 4vw;
+        font-size: 35px;
     }
     .en{
         left: 12vw;
         top: -6vw;
+        font-size: 80px;
     }
 }
 
@@ -273,13 +280,17 @@ a.ft{
     }
     .stxt{
         
-        left: 16vw;
+        left: 18vw ;
         bottom: 4vw;
-        margin-left:2vw ;
+        margin-left: 4vw !important;
+        
+        font-size: 32.5px !important;
+        
     }
     .en{
         left: 14vw;
         top: -6vw;
+        font-size: 75px !important;
     }
     .cred{
         margin-top: 2vw;
@@ -291,17 +302,17 @@ a.ft{
         
         left: 12vw;
         bottom: 4vw;
-        font-size: 28px;
-        margin-left: 0vw;
+        font-size: 23px;
+        margin-left: 0vw !important;
     }
     .en{
         left: 10vw;
         top: -6vw;
-        font-size: 70px;
+        font-size: 57px;
     }
     .cred{
-        height:230px;
-        width:410px;
+        height:200px;
+        width:380px;
         margin-bottom:1vw;
         
     }
@@ -324,16 +335,15 @@ a.ft{
         
         left: 12vw;
         bottom: 4vw;
-        font-size: 28px;
+        
     }
     .en{
         left: 10vw;
         top: -6vw;
-        font-size: 70px;
+        
     }
     .cred{
-        height:230px;
-        width:410px;
+       
         margin-bottom:1vw;
         
     }
@@ -358,6 +368,18 @@ a.ft{
         margin-top: 15vw !important;
         height: 37vw ;
     }
+    .stxt{
+        
+        left: 14vw;
+        bottom: 4vw;
+        margin-left: 6vw !important;
+    }
+    .en{
+        left: 13vw;
+        top: -6vw;
+        margin-left: 2vw !important;
+    }
+
 }
 
 @media (max-width:1281px) and (max-height:961px)
@@ -366,6 +388,12 @@ a.ft{
     {
         margin-top: 15vw;
         
+    }
+    .stxt{
+        
+        left: 14vw;
+        bottom: 4vw;
+        margin-left: 2vw !important;
     }
 }
 
@@ -376,23 +404,26 @@ a.ft{
         margin-top: 9vw !important;
         height: 38vw ;
     }
+    .stxt
+    {
+        margin-left: 5vw !important;
+    }
 }
 
 @media (max-width:1281px) and (max-height:769px){
     .stxt{
         
-        left: 12vw;
+        left: 12vw !important;
         bottom: 4vw;
-        font-size: 25px;
+        
     }
     .en{
         left: 10vw;
         top: -6vw;
-        font-size: 65px;
+        
     }
     .cred{
-        height:220px;
-        width:390px;
+        
         margin-bottom:1vw;
         
     }
@@ -432,12 +463,12 @@ a.ft{
         
         left: 12.5vw;
         bottom: 4vw;
-        font-size: 25px;
+        font-size: 23px;
     }
     .en{
         left: 10.5vw;
         top: -6vw;
-        font-size: 65px;
+        font-size: 55px;
     }
     .cre1{
         margin-top:-13vw;
@@ -518,9 +549,9 @@ a.ft{
  @media (max-width:769px){
     .input-area
     {
-        margin-top: 12vw;
-        height: 60vw;
-        width: 26vw;
+        top: 18vw;
+        height: 53vw;
+        width: 32vw;
     }
     .il{
         display:none;
@@ -532,16 +563,18 @@ a.ft{
         
         left: 14vw;
         bottom: 4vw;
-        font-size: 20px;
+        font-size: 30px;
+        margin-left: 7vw !important;
     }
     .en{
         left: 12vw;
         top: -6vw;
-        font-size: 55px;
+        font-size: 65px;
+        margin-left: 6vw !important;
     }
     .cre1{
         margin-top:-14vw;
-        margin-left:5vw;
+        margin-left:7vw;
         height:75px;
         width:75px;
     }
@@ -552,13 +585,17 @@ a.ft{
         margin-bottom:1vw;
         
     }
+    .submit-btn
+    {
+        width: 12vw;
+    }
  }
 
  
  @media (max-width:542px){
     .input-area
     {
-        top:10vw;
+        top:16vw;
         height: 70vw;
         width: 34vw;
     }
@@ -568,23 +605,25 @@ a.ft{
     
     .stxt
     {
-        margin-left: 7vw;
+        margin-left: 10vw !important;
+        font-size: 26px !important;
     }
     .en{
         left: 15vw;
-        top: -6vw;
-        font-size: 55px;
+        top: -8vw;
+        font-size: 50px !important;
+        margin-left: 8vw !important;
     }
     .cre1{
         margin-top:-14vw;
-        margin-left:6vw;
-        height:75px;
-        width:75px;
+        margin-left:8vw;
+        height:60px;
+        width:60px;
     }
     .cred{
         margin-top: 8vw;
-        height:150px;
-        width:270px;
+        height:110px;
+        width:210px;
         margin-bottom:1vw;
         
     }
@@ -602,8 +641,8 @@ a.ft{
         display:none;
     }
     .cred{
-        height:90px;
-        width:220px;
+        height:80px;
+        width:190px;
         margin-left:2vw;
         margin-top:12vw;
     }
@@ -611,13 +650,13 @@ a.ft{
         font-size:25px;
     }
     .stxt{
-        font-size:17px;
-        margin-left:14vw !important;
+        font-size:17px !important;
+        margin-left:23vw !important;
     }
     .en{
-        font-size:25px;
-        margin-left:7vw;
-        margin-top:-3vw;
+        font-size:35px !important;
+        margin-left:20vw !important;
+        margin-top:0vw;
     }
     .nb{
         background-color: #000 !important;
@@ -707,10 +746,11 @@ a.ft{
         font-size:22.55px;
     }
     .en{
-        margin-left:8vw;
+        margin-left:18vw !important;
     }
     .stxt{
         font-size:18px;
+        margin-left: 22vw !important;
         
     }
     .nt{
@@ -738,10 +778,10 @@ a.ft{
     }
 }
 
-@media(max-width:365px){
+@media(max-width:370px){
     .input-area{
         position: absolute;
-        top:54vw;
+        top:52vw;
         height:97vw;
         width:68vw;
         font-size:18px;
@@ -750,12 +790,9 @@ a.ft{
     .txt{
         font-size:22.55px;
     }
-    .en{
-        margin-left:6vw;
-    }
-    .stxt{
-        font-size:18px;
-        margin-left: 10vw !important;
+    .cred{
+        height:70px;
+        width:170px;
     }
     .nt{
         font-size:11px;
@@ -775,10 +812,11 @@ a.ft{
     }
     .stxt
     {
-        margin-left: 10vw !important;
+        margin-left: 22vw !important;
     }
     .en{
         margin-left: 13vw;
+        margin-top: -1vw;
     }
 }
 
@@ -807,11 +845,12 @@ a.ft{
     }
     .stxt
     {
-        margin-left: 9vw !important;
+        margin-left: 22vw !important;
         font-size: 13px !important;
+        margin-bottom: 4vw;
     }
     .en{
-        margin-left: 9vw !important;
+        margin-left: 22vw !important;
         font-size: 18px !important;
     }
     .cred{
@@ -823,39 +862,7 @@ a.ft{
     }
     
 }
-@media(max-width:335px){
-    .sign{
-        margin-right:6.5vw;
-    }
-    .nt{
-        font-size:10.5px;
-        margin-left:2vw;
-    }
-    a.abs{
-        font-size:10.5px;
-    }
-    .txt{
-        font-size:18px;
-        margin-left:-1vw;
-    }
-    .stxt{
-        font-size:18px;
-    }
-    .en{
-        font-size:30px;
-        margin-top:-5vw;
-    }
-    .input-area{
-        height:95vw;
-    }
-    .stxt
-    {
-        margin-left: 15vw;
-    }
-    .en{
-        margin-left: 15vw;
-    }
-}
+
 
 @media(max-width:300px){
     .input-area
@@ -868,12 +875,20 @@ a.ft{
     .txt
     {
         font-size: 12px;
+        
     }
     .stxt
     {
-        margin-left: 19vw;
+        margin-left: 18vw !important;
+        font-size: 18px !important;
+        
     }
     .en{
-        margin-left: 18vw;
+        margin-left: 16vw !important;
+        font-size: 32px !important;
+    }
+    .nt
+    {
+        font-size: 10px;
     }
     }
