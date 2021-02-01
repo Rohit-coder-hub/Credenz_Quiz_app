@@ -184,7 +184,7 @@ a.ft{
     height:280px;
     width:500px;
     margin-bottom:1vw;
-    margin-left: 1vw;
+    
 }
 .txt{
     color:white;
@@ -213,11 +213,18 @@ a.ft{
 }
 
 /* Media Query */
+@media (max-width:1922px)
+{
+    .cred
+    {
+        margin-left: 1vw;
+    }
+}
 @media (max-width:1685px){
     .stxt{
         
         left: 15vw !important;
-        font-size: 40px;
+        font-size: 35px;
     }
     .en{
        left: 13vw !important;
@@ -232,7 +239,7 @@ a.ft{
     .cred
     {
         margin-top: 2vw;
-        margin-left: 1vw;
+        margin-left: 0vw;
     }
    
 }
@@ -248,6 +255,8 @@ a.ft{
     .cred
     {
         margin-top: 0px;
+        height:240px;
+        width:420px;
     }
 }
 
@@ -262,12 +271,19 @@ a.ft{
         
         left: 14vw;
         bottom: 4vw;
-        font-size: 35px;
+        font-size: 32.5px !important;
     }
     .en{
         left: 12vw;
         top: -6vw;
-        font-size: 80px;
+        font-size: 80px !important;
+        
+    }
+    .cred
+    {
+        margin-top: 0px;
+        height:220px;
+        width:400px;
     }
 }
 
@@ -282,15 +298,17 @@ a.ft{
         
         left: 18vw ;
         bottom: 4vw;
+        font-size: 32.5px !important;
         margin-left: 4vw !important;
         
-        font-size: 32.5px !important;
+        
         
     }
     .en{
         left: 14vw;
         top: -6vw;
-        font-size: 75px !important;
+        font-size: 65px !important;
+        
     }
     .cred{
         margin-top: 2vw;
@@ -300,20 +318,22 @@ a.ft{
 @media (max-width:1367px){
     .stxt{
         
-        left: 12vw;
+        left: 10vw;
         bottom: 4vw;
-        font-size: 23px;
-        margin-left: 0vw !important;
+        font-size: 27px !important;
+        margin-left: -2vw !important;
     }
     .en{
-        left: 10vw;
+        left: 8vw;
         top: -6vw;
-        font-size: 57px;
+        font-size: 65px !important;
+        margin-left: -2vw !important;
     }
     .cred{
-        height:200px;
-        width:380px;
+        height:170px;
+        width:320px;
         margin-bottom:1vw;
+        margin-left: -1vw;
         
     }
     .input-area
@@ -393,7 +413,10 @@ a.ft{
         
         left: 14vw;
         bottom: 4vw;
-        margin-left: 2vw !important;
+        margin-left: 0vw !important;
+    }
+    .en{
+        margin-left: 0vw!important;
     }
 }
 
@@ -406,7 +429,7 @@ a.ft{
     }
     .stxt
     {
-        margin-left: 5vw !important;
+        margin-left: 3vw !important;
     }
 }
 
