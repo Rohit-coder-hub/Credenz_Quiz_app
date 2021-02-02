@@ -81,7 +81,6 @@ form{
     display: none;
     font-size:22px !important;
     position: relative;
-    left:39%;
     font-family:Roboto;
 }
 .logo{
@@ -534,44 +533,6 @@ a.ft{
         width:75px;
     }
  }
-
-
- @media (max-width:769px){
-    .input-area
-    {
-        margin-top: 12vw;
-        height: 60vw;
-        width: 26vw;
-    }
-    .txt{
-        font-size: 30px;
-    }
-    .stxt{
-        
-        left: 14vw;
-        bottom: 4vw;
-        font-size: 20px;
-    }
-    .en{
-        left: 12vw;
-        top: -6vw;
-        font-size: 55px;
-    }
-    .cre1{
-        margin-top:-14vw;
-        margin-left:5vw;
-        height:75px;
-        width:75px;
-    }
-    .cred{
-        margin-top: 8vw;
-        height:150px;
-        width:270px;
-        margin-bottom:1vw;
-        
-    }
- }
-
  
 
  @media (max-width:769px){
@@ -669,6 +630,14 @@ a.ft{
     {
         display:inline !important;
     }
+    .logo
+    {
+        display: none;
+    }
+    .adjust
+    {
+        padding-bottom: 12vh;
+    }
     .il{
         display:none;
     }
@@ -699,10 +668,10 @@ a.ft{
         font-size:18px;
     }
     .nt{
-        font-size: 14px;
+        font-size: 12px;
     }
     a.abs{
-        font-size:14px;
+        font-size:12px;
     }
     .logo{
         height:35px;
@@ -727,9 +696,10 @@ a.ft{
     }
     .input-area{
         position: absolute ;
-        top: 42vw;
+        top: 21vh;
         height:100vw;
         width:65vw;
+        margin-bottom: 12vh;
         font-size: 18px;
         margin-left:-14.5vw;
         margin-top:56vw;
@@ -769,100 +739,6 @@ a.ft{
 }
 
 @media(max-width:376px){
-    .input-area{
-        position: absolute;
-        top:48vw;
-        height:95vw;
-        width:66vw;
-        font-size:18px;
-        padding-top:6vw;
-    }
-    .txt{
-        font-size:22.55px;
-    }
-    .en{
-        margin-left:18vw !important;
-    }
-    .stxt{
-        font-size:18px;
-        margin-left: 22vw !important;
-        
-    }
-    .nt{
-        font-size:11px;
-        margin-left:2vw;
-    }
-    a.abs{
-        font-size:11px;
-    }
-    .cre1{
-        height:60px;
-        width:60px;
-        margin-left:16vw;
-        margin-top:-22vw;
-    }
-    .submit-btn{
-        margin-left: 4vw;
-    }
-    .stxt
-    {
-        margin-left: 10vw;
-    }
-    .en{
-        margin-left: 14vw;
-    }
-    .cred{
-        height:100px;
-        width:230px;
-        margin-left:12vw;
-        margin-top:14vw;
-    }
-    
-}
-
-@media(max-width:370px){
-    .input-area{
-        position: absolute;
-        top:44vw;
-        height:97vw;
-        width:68vw;
-        font-size:18px;
-        padding-top:6vw;
-    }
-    .txt{
-        font-size:22.55px;
-    }
-    .cred{
-        height:83px;
-        width:210px;
-    }
-    .nt{
-        font-size:11px;
-        margin-left:2vw;
-    }
-    a.abs{
-        font-size:11px;
-    }
-    .cre1{
-        height:60px;
-        width:60px;
-        margin-left:17vw;
-        margin-top:-22vw;
-    }
-    .submit-btn{
-        margin-left: 4vw;
-    }
-    .stxt
-    {
-        margin-left: 22vw !important;
-    }
-    .en{
-        margin-left: 13vw;
-        margin-top: -1vw;
-    }
-}
-
-@media(max-width:325px){
     a.title{
         font-size:10px;
     }
@@ -871,7 +747,55 @@ a.ft{
         width:65vw;
         font-size: 15px;
         padding-left:9.5vw;
-        margin-top:35vw;
+        top:20vh;
+    }
+    .cre1{
+        height:60px;   
+        width:60px;
+        margin-left:13.2vw;
+    }
+    .submit-btn{
+        font-size:15px;
+        margin-left:2vw;
+    }
+    .sign{
+        font-size: 12px;
+    }
+    .stxt
+    {
+        margin-left: 22vw !important;
+        font-size: 13px !important;
+        margin-bottom: 4vw;
+    }
+    .en{
+        margin-left: 22vw !important;
+        font-size: 18px !important;
+    }
+    .cred{
+        margin-top: 13vw ;
+        height:70px;
+        width:170px;
+        margin-left:13vw;
+        
+    }
+    .nt{
+        font-size: 10px;
+    }
+    a.abs{
+        font-size:10px;
+    }
+}
+
+@media(max-width:325px){
+    a.title{
+        font-size:10px;
+    }
+    .input-area{
+        height: 103vw;
+        width:65vw;
+        font-size: 15px;
+        padding-left:9.5vw;
+        top:23vh;
     }
     .cre1{
         height:60px;   
