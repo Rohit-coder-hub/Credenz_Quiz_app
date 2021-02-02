@@ -147,10 +147,11 @@ form{
     border-radius: 3px;
     font-size: 22px;
    
-    background-color: #03e5b7;
-    background-image: linear-gradient(315deg, #03e5b7 0%, #037ade 74%);;
+   
+background-color: #be25ff ;
+background-image: linear-gradient(315deg, #be25ff  0%, #037ade 74%);
 
-    
+
 
     color:white;
     border:none;
@@ -829,8 +830,8 @@ a.ft{
     .cred{
         margin-top: 13vw ;
         height:70px;
-        width:125px;
-        margin-left:25vw;
+        width:135px;
+        margin-left:23vw;
         
     }
     .nt{
