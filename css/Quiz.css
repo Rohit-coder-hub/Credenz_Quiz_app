@@ -78,6 +78,7 @@ form{
     width: 100vw;
 }
 .title{
+    display: none;
     font-size:22px !important;
     position: relative;
     left:39%;
@@ -219,6 +220,10 @@ a.ft{
     {
         margin-left: 1vw;
     }
+}
+.title
+{
+    display: none;
 }
 @media (max-width:1685px){
     .stxt{
@@ -660,13 +665,18 @@ a.ft{
     body{
         overflow: hidden !important;
     }
+    .title
+    {
+        display:inline !important;
+    }
     .il{
         display:none;
     }
+
     .cred{
-        height:80px;
-        width:190px;
-        margin-left:2vw;
+        height:100px;
+        width:230px;
+        margin-left:14vw;
         margin-top:12vw;
     }
     .txt{
@@ -675,11 +685,13 @@ a.ft{
     .stxt{
         font-size:17px !important;
         margin-left:23vw !important;
+        display: none;
     }
     .en{
         font-size:35px !important;
         margin-left:20vw !important;
         margin-top:0vw;
+        display: none;
     }
     .nb{
         background-color: #000 !important;
@@ -715,7 +727,7 @@ a.ft{
     }
     .input-area{
         position: absolute ;
-        top: 47vw;
+        top: 42vw;
         height:100vw;
         width:65vw;
         font-size: 18px;
@@ -759,7 +771,7 @@ a.ft{
 @media(max-width:376px){
     .input-area{
         position: absolute;
-        top:52vw;
+        top:48vw;
         height:95vw;
         width:66vw;
         font-size:18px;
@@ -799,12 +811,19 @@ a.ft{
     .en{
         margin-left: 14vw;
     }
+    .cred{
+        height:100px;
+        width:230px;
+        margin-left:12vw;
+        margin-top:14vw;
+    }
+    
 }
 
 @media(max-width:370px){
     .input-area{
         position: absolute;
-        top:52vw;
+        top:44vw;
         height:97vw;
         width:68vw;
         font-size:18px;
@@ -814,8 +833,8 @@ a.ft{
         font-size:22.55px;
     }
     .cred{
-        height:70px;
-        width:170px;
+        height:83px;
+        width:210px;
     }
     .nt{
         font-size:11px;
@@ -880,7 +899,7 @@ a.ft{
         margin-top: 17vw ;
         height:70px;
         width:170px;
-        margin-left:0vw;
+        margin-left:13vw;
         
     }
     
@@ -913,5 +932,11 @@ a.ft{
     .nt
     {
         font-size: 10px;
+    }
+    .cred{
+        margin-top: 22vw ;
+        height:70px;
+        width:170px;
+        margin-left:9vw;
     }
     }

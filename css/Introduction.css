@@ -4,7 +4,8 @@ html {
 }
 body
 {
-background: linear-gradient(0deg,#103d3d, #27aca5, #b7dddc);
+ 
+ background-image: radial-gradient(#010101,#121212); 
 width: 100%;
 
 background-position: center;
@@ -26,19 +27,30 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 /*card*/
 .card
 {
-  background: rgb(9,40,49);
-  color: #fff;
+  
+   /* The image used */
+   background-image: url("../img/bg.jpg");
+
+   /* Full height */
+   height: 100%;
+ 
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+  color: #000;
   border-radius: 20px;
   box-shadow: 10px 10px 5px rgb(20, 19, 19);
 }
 .card-header
 {
-border-bottom: 2px solid white;
+border-bottom: 2px solid black;
 }
 
 .card-footer
 {
-border-top: 2px solid white;
+border-top: 2px solid black;
 }
 /*button*/
 .btn
@@ -160,9 +172,9 @@ animation-name: fadeInUp;
 @media (min-width:762px) and (max-width:772px){body{height: 100vh !important;}}
 @media (max-width:700px){.title{ font-size: 20px !important; padding-right: 40px !important;}}
 @media (min-width:537px) and (max-width:543px){body{height: 100vh !important;}}
-@media (max-width:425px){.title{ font-size: 20px !important; padding-right: 40px !important;}}
+@media (max-width:425px){.title{ font-size: 20px !important; padding-right: 40px !important;}.abs{font-size: 11px  !important;}}
 @media (min-width:408px) and (max-width:412px){.navbar{width:100vw !important;}body{height: 100vh !important;}}
-@media (max-width:376px){.title{ font-size: 20px !important; margin-right: 40px !important;}body{height: 100vh !important;}}
+@media (max-width:376px){.title{ font-size: 20px !important; margin-right: 40px !important;}body{height: 100vh !important;}.abs{font-size: 11px  !important;}}
 @media (min-width:348px) and (max-width:370px){.navbar{width:100vw !important;}}
-@media (max-width:322px){.title{ font-size: 20px !important; margin-right: 40px !important;}#footer{font-size: 5px  !important;}.card{margin-top: -0.5vh !important;}.card-header{font-size: 16px !important;}}
-@media (max-width:300px){.title{ font-size: 20px !important; margin-right: 40px !important;}}
+@media (max-width:322px){.title{ font-size: 20px !important; margin-right: 40px !important;}#footer{font-size: 5px  !important;}.abs{font-size: 8px  !important;}.card{margin-top: -0.5vh !important;}.card-header{font-size: 16px !important;}}
+@media (max-width:300px){.title{ font-size: 20px !important; margin-right: 40px !important;}#footer{font-size: 8px  !important;}.abs{font-size: 8px  !important;}}
