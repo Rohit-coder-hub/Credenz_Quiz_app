@@ -5,17 +5,16 @@ html {
 body
 {
  
- background-image: radial-gradient(#010101,#121212); 
-width: 100%;
-
-background-position: center;
-background-size: cover;
-/* overflow: hidden; */
-/* font-family: 'IM Fell DW Pica', serif; */
-/* font-family: 'BenchNine', sans-serif; */
-font-family: 'Gruppo', cursive;
-/* letter-spacing: 1px; */
-position: relative;                
+  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  background-image: url('../img/puz.png');
+  background-repeat: repeat;
+  /* background-color: rgb(155, 219, 211); */
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Gruppo', cursive;
+  position: relative;        
+  min-height: 100%;              
 overflow: hidden;
   
 font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -28,49 +27,41 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 .card
 {
   
-   /* The image used */
-   background-image: url("../img/bg.jpg");
+  background-color: #608cdd;
+  opacity:0.8;
 
-   /* Full height */
-   height: 100%;
- 
-   /* Center and scale the image nicely */
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-
-  color: #000;
-  border-radius: 20px;
+  color: #fff;
+  border-radius: 0px;
   box-shadow: 10px 10px 5px rgb(20, 19, 19);
 }
 .card-header
 {
-border-bottom: 2px solid black;
+border-bottom: 2px solid white;
 }
 
 .card-footer
 {
-border-top: 2px solid black;
+border-top: 2px solid white;
 }
 /*button*/
 .btn
 {
-  color:#0099cc;
-  background-color: #001122;
+  color:#608cdd;
+  background-color: black;
   font-size:15px;
   letter-spacing: 1px;
   padding: 5px 20px;
-  border: 2px solid #0099cc;
+  border: 2px solid #608cdd;
   
 }
 
 .btn:hover {
 color:white;
-background-color: #0099cc;
+background-color: #608cdd;
   font-size:15px;
   letter-spacing: 1px;
   padding: 5px 20px;
-  border: 2px solid #0099cc;
+  border: 2px solid #608cdd;
   
 
 }
