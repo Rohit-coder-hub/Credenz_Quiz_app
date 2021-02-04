@@ -702,7 +702,7 @@ a.ft{
     .input-area{
         position: absolute ;
         top: 21vh;
-        height:100vw;
+        height:56vh;
         width:65vw;
         margin-bottom: 12vh;
         font-size: 18px;
@@ -748,7 +748,7 @@ a.ft{
         font-size:10px;
     }
     .input-area{
-        height: 95vw;
+        height: 57vh;
         width:65vw;
         font-size: 15px;
         padding-left:9.5vw;
@@ -797,7 +797,7 @@ a.ft{
         font-size:10px;
     }
     .input-area{
-        height: 95vw;
+        height: 58vh;
         width:65vw;
         font-size: 15px;
         padding-left:9.5vw;
@@ -845,7 +845,7 @@ a.ft{
         font-size:10px;
     }
     .input-area{
-        height: 103vw;
+        height: 60vh;
         width:65vw;
         font-size: 15px;
         padding-left:9.5vw;
@@ -888,8 +888,8 @@ a.ft{
     .input-area
     {
         
-        margin-top: 30vw !important;
-        height:120vw;
+        margin-top: 8vh !important;
+        height:58vh;
 
     }
     .txt
