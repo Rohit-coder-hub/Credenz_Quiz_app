@@ -37,7 +37,7 @@
     <div class="container-fluid" >
         
         <form class="col-10 col-md-6 new">
-        <img class="cred " src="../img/C'live Horizontal Colour .png"><p class="stxt">presents</p>
+        <img class="cred " src="../img/C'live with title .png"><p class="stxt">presents</p>
         <p class="en" >QUIZ</p>
         </form>
         <form id="login" class="col-10 col-md-6 input-area justify-content-center align-items-center">
@@ -46,7 +46,19 @@
                     <label><i class="fa fa-user ico" aria-hidden="true"></i> Username :<br><input type="username" class="input-field" required></label><br>
             <label><i class="fa fa-lock ico" aria-hidden="true"></i> Password :<input type="password" class="input-field" required></label><br>
             <label><i class="fa fa-mobile ico" aria-hidden="true"></i> Mobile :<input type="text" pattern="[0-9]+" class="input-field" required></label><br>
-    <button type="submit" class="submit-btn bg-info" href="#">Log In</button> 
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="quiztype" id="inlineRadio1" value="melaquiz">
+              <label class="form-check-label" for="inlineRadio1">Mela</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="quiztype" id="inlineRadio2" value="biztechquiz">
+              <label class="form-check-label" for="inlineRadio2">Biztech</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="quiztype" id="inlineRadio3" value="generalquiz">
+              <label class="form-check-label" for="inlineRadio3">General</label>
+            </div>
+    <button type="submit" class="submit-btn bg-info " href="#">Log In</button> 
     <p class="sign">Not Signed Up ? <a class="su" href="#"> Click Here</a> </p>
         </form>
     </div>
