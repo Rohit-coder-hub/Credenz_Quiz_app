@@ -438,6 +438,7 @@ a.ft {
 @media (max-width: 1281px) and (max-height: 810px) {
   .input-area {
     margin-top: 9vw !important;
+    top: 5vw;
     height: 35vw;
   }
   .stxt {
@@ -461,6 +462,7 @@ a.ft {
     margin-top: 7vw !important;
     height: 34vw;
     width: 24vw;
+    top: 5vw;
   }
   .cre1 {
     margin-top: -13vw;
@@ -474,6 +476,7 @@ a.ft {
   .input-area {
     margin-top: 5.6vw !important;
     height: 34vw !important;
+    top: 3vw;
   }
 }
 
@@ -482,7 +485,7 @@ a.ft {
     margin-top: 12vw !important;
     height: 40vw !important;
     width: 30vw !important;
-    
+    top: 1vw;
   }
   .txt {
     font-size: 35px;
